@@ -10,7 +10,8 @@ body {
 	float: left;
 	position: absolute;
 	top: 30%;
-	left: 0%;
+	left: -0.25%;
+	background-color: black;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	border-radius: 15px;
 	padding-left: 15px;
