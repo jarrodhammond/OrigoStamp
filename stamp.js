@@ -1,3 +1,10 @@
+/*
+Origo Stamp App
+
+Developed by Jarrod Hammond
+*/
+
+// Variable declaration
 var started = false;
 var canvas, context;
 var stampId = '';
