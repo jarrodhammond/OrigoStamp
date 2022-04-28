@@ -31,13 +31,13 @@ function onStamp(id) {
 	stampId = '#' + id;
 
     if (lastStampId == stampId) {
-        // User clicked the selected stamp again, so deselect it.
+        // If user clicks the selected stamp again, deselect it.
         stampId = '';
     }
 
 	$(lastStampId).css("border", "0px solid white");
 	$(stampId).css("border", "4px dotted yellow");
 
-	// Store stamp so we can un-highlight it next time around.
+	// Deselect last stamp once a new stamp is selected.
 	lastStampId = stampId;	
 }
